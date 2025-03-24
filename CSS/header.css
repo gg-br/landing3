@@ -1,5 +1,5 @@
 header{
-    background-color: aliceblue;
+    background-color: #c6c5b9;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -7,6 +7,8 @@ header{
     flex-wrap: wrap;
     padding: .8rem;
     min-height: 50px;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 nav{
@@ -19,11 +21,11 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: #393d3f;
 }
 
 nav a:hover{
-    color: blueviolet;
-    transition: .4s;
+    color: #000000;
+    transition: .2s;
     text-decoration: underline;
 }
