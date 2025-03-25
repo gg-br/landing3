@@ -24,4 +24,5 @@ body{
 }
 #my-projects-list a:hover{
    color: black;
+   cursor: pointer;
 }
