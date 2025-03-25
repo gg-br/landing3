@@ -26,3 +26,22 @@ body{
    color: black;
    cursor: pointer;
 }
+
+:is(.img-profile, .img-who-am-i){
+    box-shadow: 1px 1px 1px 1px #393d3f;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #c6c5b9;
+}
+::-webkit-scrollbar-thumb{
+    background: #393d3f;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+
+}
