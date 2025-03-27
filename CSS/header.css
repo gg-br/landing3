@@ -6,9 +6,10 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    min-height: 50px;
     font-weight: 600;
     font-size: 1.2em;
+    position: sticky;
+    top: 0;
 }
 
 nav{
